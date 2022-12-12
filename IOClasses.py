@@ -25,7 +25,7 @@ class FileIO:
     @staticmethod
     def save_inventory(file_name: list, lst_Inventory: list) -> None:
         """
-
+        Saves both inventories to their respective files
 
         Args:
             file_name (list): list of file names [CD Inventory, Track Inventory] that hold the data.
@@ -53,7 +53,7 @@ class FileIO:
     @staticmethod
     def load_inventory(file_name: list) -> list:
         """
-
+        Reconstitutes both inventories from their respective files
 
         Args:
             file_name (list): list of file names [CD Inventory, Track Inventory] that hold the data.
